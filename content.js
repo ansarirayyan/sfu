@@ -6,6 +6,27 @@ can view the console logs. */
 console.log("This is from content.js");
 
 
+
+/*
+
+
+This seems to work kinda when put into console:
+
+
+const element = document.querySelector('[class^="slds-form-element"]');
+
+console.log(element)
+
+
+
+
+-------
+
+const elements = document.querySelectorAll('[class^="slds-form-element"]'); // so I think these are really going for like the financial impact -- why????
+
+*/
+
+
 // Function to extract fields
 //function extractFields() {	
 	console.log("Run extractFields()");
